@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/proyecto-integrador-mezzabotta",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

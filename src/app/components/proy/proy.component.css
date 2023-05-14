@@ -1,0 +1,10 @@
+.row{
+    background: linear-gradient(180deg,  rgba(177, 150, 0, 0.753), black);
+    color: white;
+    text-align: left;
+    padding: 25px;
+}
+tbody{
+    background: none;
+    color: white;
+}

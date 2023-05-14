@@ -1,0 +1,15 @@
+<div class="row">
+    <div class="container">
+        <div class="logo">
+            <img src="../../../assets/APLogo.png" id="logoAP">
+        </div>    
+        <div class="redes">
+                <a href="https://www.facebook.com/tomas.mezza"><img src="../../../assets/facebook.png" alt=""></a>
+                <a href="https://github.com/TotoMezza"><img src="../../../assets/github.png" alt=""></a>
+                <a href="https://www.instagram.com/totomezza19/"><img src="../../../assets/instagram.png" alt=""></a>
+                <a href="https://twitter.com/TotoMzza"><img src="../../../assets/twitter.png" alt=""></a>
+                <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">INGRESAR</button>
+                <button type="button" class="btn btn-outline-light" (click)="onLogOut()"*ngIf="isLogged">Cerrar Sesión</button>
+        </div>
+    </div>
+</div>
