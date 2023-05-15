@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/proyecto-integrador-mezzabotta",
+    "public": "dist/proyecyo-integrador-mezzabotta",
     "ignore": [
       "firebase.json",
       "**/.*",
