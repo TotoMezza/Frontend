@@ -8,8 +8,8 @@ import { HomeComponent } from './components/home/home.component';
 import { EditSkillComponent } from './components/skills/edit-skill.component';
 import { NewSkillComponent } from './components/skills/new-skill.component';
 import { LoginComponent } from './components/login/login.component';
-import { NewProyectoComponent } from './components/proy/new-proyecto.component';
 import { EditProyectoComponent } from './components/proy/edit-proyecto.component';
+import { NewProyectoComponent } from './components/proy/new-proyecto.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },

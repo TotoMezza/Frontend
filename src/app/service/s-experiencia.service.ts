@@ -10,7 +10,6 @@ import { ExpLab } from '../model/exp-lab';
 export class SExperienciaService {
 
   URL = environment.URL + 'explab/';
-
   constructor(private httpClient: HttpClient) { }
 
   public lista(): Observable<ExpLab[]>{

@@ -7,7 +7,9 @@ div{
     color: white;
     background: linear-gradient(180deg, black, rgba(177, 150, 0, 0.486));
 }
-
+h1, h3{
+    display: inline;
+}
 tbody{
     text-align: center;
     color: white;
